@@ -1,0 +1,20 @@
+{
+  "name": "image-annotation-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "image-annotation-tool.ts",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./bin/build.sh",
+    "watch": "./bin/watch.sh"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dragula": "^3.7.1",
+    "jquery": "^3.1.0"
+  }
+}

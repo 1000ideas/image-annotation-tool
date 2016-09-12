@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Widget - Image Annotation Tool Example</title>
+    <link media="all" rel="stylesheet" href="basic-widget.css" />
+    <link media="all" rel="stylesheet" href="/dist/image-annotation-tool.css" />
+</head>
+<body>
+  
+    <div id="example-container">
+        <textarea id="editor"></textarea>
+    </div>
+        
+    <script src="/dist/image-annotation-tool.js"></script>
+    <script>
+      var e = new window.ImageAnnotationTool.Widget();
+      e.initOnTextarea(document.getElementById("editor"));
+    </script>
+
+</body>
+</html>

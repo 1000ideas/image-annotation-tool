@@ -1,0 +1,15 @@
+{
+  "files": [
+    "typings/index.d.ts",
+    "image-annotation-tool.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "module": "none",
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "target": "es5"
+  }
+}
